@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <title>hotel room bookng form</title>
+   </head>
+   <body>
+    <h1 align="center">hotel room booking form</h1>
+    <form action="#"method="post"align="center">
+        <!--name-->
+        <label for="fullname">fullname:</label>
+       <input type="text id ="fullname" 
+       name="fullname"required>
+       <br><br>
+       <!--email-->
+       <label for="email">email:</label>
+       <input type="test id ="fullname"
+       name="fullname"required>
+       <br><br>
+            <!--phone-->
+             <label for="phone">phone:</label>
+             <input type="tel" id="phone"
+             name="phone"required>
+             <br><br>
+             <!--check-in&check-out-->
+             <label for="checkin">check-in Date:</label>
+             <input type="date"id="checkin"name="checkin">
+             <br><br>
+             <label for="checkout">check-out date:</label>
+             <input type="date" id ="checkout"name="checkout">
+             <br><br>
+             <!--Room Type-->
+             <label for="room">Room Type:</label>
+             <select id ="room"name="room">
+            <option value="single">single room</option>
+                <option value="double">double room </option>
+                <option value="deluxe">deluxe room</option>
+                <option value="suite">suite</option>
+                <br><br>
+                <!--no.of guests-->
+                <label for="guests">number of guests</label>
+                <input type="number id"="guests"name="guests"min="1" max="10">
+                <br><br>
+                <!--special Requested-->
+                <label for="requests">specialrequests:</label><br>
+                <textarea id="requests"
+                name="requests"rows="4" cols="40"></textarea>
+                <br><br>
+
+                <!--Buttons-->
+                <input tyoe="submit" value="book Now">
+                <input type="reset"value="reset form">
+
+            </form>
+            </body>
+            </html>
